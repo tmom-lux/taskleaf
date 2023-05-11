@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   root to: 'tasks#index'
-  resources :tasks, only: [:index, :show, :new, :create]
+  resources :tasks, only: [:index, :show, :new, :create, :edit, :update]
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
